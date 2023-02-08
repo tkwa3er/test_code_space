@@ -36,8 +36,6 @@
         "johnsoncodehk.vscode-typescript-vue-plugin",
         "streetidesoftware.code-spell-checker-spanish"
     ],
-	"containerEnv": {
-		"SITE_URL": "$CODESPACE_NAME-3001"
-	}
+	"postCreateCommand": "../a.sh"
     
 }
