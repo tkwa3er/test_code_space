@@ -37,7 +37,7 @@
         "streetidesoftware.code-spell-checker-spanish"
     ],
 	"containerEnv": {
-		"MY_VARIABLE": "${localEnv:MY_VARIABLE}"
+		"SITE_URL": "$CODESPACE_NAME-3001"
 	}
     
 }
