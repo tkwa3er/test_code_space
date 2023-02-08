@@ -36,6 +36,10 @@
         "johnsoncodehk.vscode-typescript-vue-plugin",
         "streetidesoftware.code-spell-checker-spanish"
     ],
-	"postCreateCommand": "../a.sh"
+    "forwardPorts":[3001,8000]
+	"initializeCommand":{
+        "permission":"chmod +x ../a.sh",
+        "run a":"../a.sh"
+    }
     
 }
