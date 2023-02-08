@@ -1,6 +1,6 @@
 {
     "name": "Codespaces Test",
-    "dockerFile": "../server/docker/Dockerfile",
+    "dockerFile": "../server/Dockerfile",
     "extensions": [
         "znck.vue",
         "jock.svg",
