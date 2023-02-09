@@ -1,8 +1,0 @@
-{
-    "name": "Codespaces Test",
-    "dockerFile": "../server/Dockerfile",
-    "appPort":[8000],
-	"setupCommands":["echo 'Running some Shell Script'",
-		       "apt-get update"]
-    
-}
