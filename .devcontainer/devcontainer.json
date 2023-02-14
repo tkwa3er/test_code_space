@@ -1,5 +1,5 @@
 {
     "name": "Container client",
-    "postCreateCommand": "echo $CODESPACE_NAME"
+    "postStartCommand": ["../a.sh"]
   }
   
