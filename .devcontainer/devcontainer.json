@@ -1,5 +1,5 @@
 {
     "name": "Container client",
-    "postStartCommand": ["../a.sh"]
+    "postAttachCommand": ["../a.sh"]
   }
   
